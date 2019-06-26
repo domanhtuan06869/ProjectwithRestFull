@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingTop="5dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imgView"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtMasach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="masach"
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:id="@+id/txtTenSach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tên sach"
+
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:id="@+id/txtSoLuongSach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="số lượng"
+
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txtGiaban"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="số lượng"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
